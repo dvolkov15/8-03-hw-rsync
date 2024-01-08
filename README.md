@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Система мониторинга Zabbix - 2" - Волков Дмитрий
+# Домашнее задание к занятию "8-03-hw-rsync" - Волков Дмитрий
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,16 +24,18 @@
 
 ### Задание 1
 
-Template
+RSYNC
 
-![template](https://github.com/dvolkov15/zabbix_2/blob/main/img/task1_zabbix2.PNG)
+![RSYNC](https://github.com/dvolkov15/8-03-hw-rsync/blob/main/img/rsync.PNG)
 
-RAM & CPU Item
-![template_item](https://github.com/dvolkov15/zabbix_2/blob/main/img/task1_zabbix2_item.PNG)
+
 
 ### Задание 2
 
-Хосты из Configuration host
+Баш скрипт резервного копирования домашней директории пользователя с помощью rsync
 
-![Configuration host](https://github.com/dvolkov15/zabbix_2/blob/main/img/task2-3.PNG)
+![Bash](https://github.com/dvolkov15/8-03-hw-rsync/blob/main/backup.sh)
 
+Вызов скрипта через CRON каждый день
+
+![CRON](https://github.com/dvolkov15/8-03-hw-rsync/blob/main/root)
